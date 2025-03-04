@@ -5,9 +5,10 @@ Este projeto foi desenvolvido para participar da competição de machine learnin
 
 ## Resultados dos Modelos
 
-- **m1** Score no Kaggle: 0.82381 / RMSE: 0.31712350161181013
-- **m1_1** Score no Kaggle: 0.82381 / RMSE: 0.31712350161181013
-- **m_2** Score no Kaggle: 0.85894 / RMSE: 0.31684929778141385
+- **Cat_v1**........Score no Kaggle: 0.82381 / RMSE: 0.31712350161181013
+- **Cat_v1.1**.....Score no Kaggle: 0.82381 / RMSE: 0.31712350161181013
+- **Cat_v1_2**.....Score no Kaggle: 0.85894 / RMSE: 0.31684929778141385
+- **Linear_v1**...Score no Kaggle: 0.85116 / RMSE: 0.32131981629548967
 
 ## Detalhamento das Versões
 ### m1:
@@ -24,3 +25,8 @@ Este projeto foi desenvolvido para participar da competição de machine learnin
 ### m1_2:
 
 - Adicionado tratamento para outliers
+
+### m2:
+
+- Adicionado modelo LinearRegression()
+- Reorganizado sistema de arquivos
